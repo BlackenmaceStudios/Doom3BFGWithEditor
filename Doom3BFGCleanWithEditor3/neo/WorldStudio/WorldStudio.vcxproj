@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\AlphaPopup.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\ColorButton.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\MaskEdit.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\OpenFileDialog.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropertyGrid.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTree.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeInfo.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItem.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemButton.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemCheck.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemColor.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemCombo.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemEdit.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemEditButton.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemFileEdit.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemStatic.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeList.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeView.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\RegistryOptions.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\RollupPanel.cpp" />
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\SpinButton.cpp" />
+    <ClCompile Include="..\idlib\precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\CDIB.cpp" />
+    <ClCompile Include="..\tools\comafx\CPathTreeCtrl.cpp" />
+    <ClCompile Include="..\tools\comafx\CSyntaxRichEditCtrl.cpp" />
+    <ClCompile Include="..\tools\comafx\DialogColorPicker.cpp" />
+    <ClCompile Include="..\tools\comafx\DialogGoToLine.cpp" />
+    <ClCompile Include="..\tools\comafx\DialogName.cpp" />
+    <ClCompile Include="..\tools\comafx\StdAfx.cpp" />
+    <ClCompile Include="..\tools\comafx\VectorCtl.cpp" />
+    <ClCompile Include="..\tools\radiant\autocaulk.cpp" />
+    <ClCompile Include="..\tools\radiant\CameraTargetDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\CamWnd.cpp" />
+    <ClCompile Include="..\tools\radiant\CapDialog.cpp" />
+    <ClCompile Include="..\tools\radiant\cmdlib.cpp" />
+    <ClCompile Include="..\tools\radiant\CommandsDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\CommentsDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\ConsoleDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\CSG.CPP" />
+    <ClCompile Include="..\tools\radiant\CurveDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\DialogInfo.cpp" />
+    <ClCompile Include="..\tools\radiant\DialogTextures.cpp" />
+    <ClCompile Include="..\tools\radiant\DialogThick.cpp" />
+    <ClCompile Include="..\tools\radiant\DlgCamera.cpp" />
+    <ClCompile Include="..\tools\radiant\DlgEvent.cpp" />
+    <ClCompile Include="..\tools\radiant\DRAG.CPP" />
+    <ClCompile Include="..\tools\radiant\ECLASS.CPP" />
+    <ClCompile Include="..\tools\radiant\EditorBrush.cpp" />
+    <ClCompile Include="..\tools\radiant\EditorBrushPrimit.cpp" />
+    <ClCompile Include="..\tools\radiant\EditorEntity.cpp" />
+    <ClCompile Include="..\tools\radiant\EditorMap.cpp" />
+    <ClCompile Include="..\tools\radiant\EditViewDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\EntityDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\EntityListDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\EntKeyFindReplace.cpp" />
+    <ClCompile Include="..\tools\radiant\FindTextureDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\GetString.cpp" />
+    <ClCompile Include="..\tools\radiant\GLWidget.cpp" />
+    <ClCompile Include="..\tools\radiant\InspectorDialog.cpp" />
+    <ClCompile Include="..\tools\radiant\LightDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\MainFrm.cpp" />
+    <ClCompile Include="..\tools\radiant\MapInfo.cpp" />
+    <ClCompile Include="..\tools\radiant\MediaPreviewDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\MRU.CPP" />
+    <ClCompile Include="..\tools\radiant\NewProjDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\NewTexWnd.cpp" />
+    <ClCompile Include="..\tools\radiant\PARSE.CPP" />
+    <ClCompile Include="..\tools\radiant\PatchDensityDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\PatchDialog.cpp" />
+    <ClCompile Include="..\tools\radiant\PMESH.CPP" />
+    <ClCompile Include="..\tools\radiant\PointFile.cpp" />
+    <ClCompile Include="..\tools\radiant\PrefsDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\PreviewDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\PropertyList.cpp" />
+    <ClCompile Include="..\tools\radiant\QE3.CPP" />
+    <ClCompile Include="..\tools\radiant\Radiant.cpp" />
+    <ClCompile Include="..\tools\radiant\RotateDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\ScaleDialog.cpp" />
+    <ClCompile Include="..\tools\radiant\SELECT.CPP" />
+    <ClCompile Include="..\tools\radiant\splines.cpp" />
+    <ClCompile Include="..\tools\radiant\SurfaceDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\TabsDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\TearoffContainerWindow.cpp" />
+    <ClCompile Include="..\tools\radiant\TextureBar.cpp" />
+    <ClCompile Include="..\tools\radiant\Undo.cpp" />
+    <ClCompile Include="..\tools\radiant\VERTSEL.CPP" />
+    <ClCompile Include="..\tools\radiant\WaitDlg.cpp" />
+    <ClCompile Include="..\tools\radiant\WaveOpen.cpp" />
+    <ClCompile Include="..\tools\radiant\WIN_DLG.CPP" />
+    <ClCompile Include="..\tools\radiant\WIN_QE3.CPP" />
+    <ClCompile Include="..\tools\radiant\XYWnd.cpp" />
+    <ClCompile Include="..\tools\radiant\Z.CPP" />
+    <ClCompile Include="..\tools\radiant\ZClip.cpp" />
+    <ClCompile Include="..\tools\radiant\ZWnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTree.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeInfo.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItem.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemButton.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemCheck.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemColor.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemCombo.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemEdit.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemEditButton.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemFileEdit.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemStatic.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeList.h" />
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeView.h" />
+    <ClInclude Include="..\framework\Licensee.h" />
+    <ClInclude Include="..\idlib\precompiled.h" />
+    <ClInclude Include="..\tools\comafx\CDIB.h" />
+    <ClInclude Include="..\tools\comafx\CPathTreeCtrl.h" />
+    <ClInclude Include="..\tools\comafx\CSyntaxRichEditCtrl.h" />
+    <ClInclude Include="..\tools\comafx\DialogColorPicker.h" />
+    <ClInclude Include="..\tools\comafx\DialogGoToLine.h" />
+    <ClInclude Include="..\tools\comafx\DialogName.h" />
+    <ClInclude Include="..\tools\comafx\StdAfx.h" />
+    <ClInclude Include="..\tools\comafx\VectorCtl.h" />
+    <ClInclude Include="..\tools\radiant\autocaulk.h" />
+    <ClInclude Include="..\tools\radiant\CameraTargetDlg.h" />
+    <ClInclude Include="..\tools\radiant\CamWnd.h" />
+    <ClInclude Include="..\tools\radiant\CapDialog.h" />
+    <ClInclude Include="..\tools\radiant\cmdlib.h" />
+    <ClInclude Include="..\tools\radiant\CommandsDlg.h" />
+    <ClInclude Include="..\tools\radiant\CommentsDlg.h" />
+    <ClInclude Include="..\tools\radiant\ConsoleDlg.h" />
+    <ClInclude Include="..\tools\radiant\CurveDlg.h" />
+    <ClInclude Include="..\tools\radiant\DialogInfo.h" />
+    <ClInclude Include="..\tools\radiant\DialogTextures.h" />
+    <ClInclude Include="..\tools\radiant\DialogThick.h" />
+    <ClInclude Include="..\tools\radiant\DlgCamera.h" />
+    <ClInclude Include="..\tools\radiant\DlgEvent.h" />
+    <ClInclude Include="..\tools\radiant\EditorBrush.h" />
+    <ClInclude Include="..\tools\radiant\EditorEntity.h" />
+    <ClInclude Include="..\tools\radiant\EditorMap.h" />
+    <ClInclude Include="..\tools\radiant\EditViewDlg.h" />
+    <ClInclude Include="..\tools\radiant\EntityDlg.h" />
+    <ClInclude Include="..\tools\radiant\EntityListDlg.h" />
+    <ClInclude Include="..\tools\radiant\EntKeyFindReplace.h" />
+    <ClInclude Include="..\tools\radiant\FindTextureDlg.h" />
+    <ClInclude Include="..\tools\radiant\GetString.h" />
+    <ClInclude Include="..\tools\radiant\GLWidget.h" />
+    <ClInclude Include="..\tools\radiant\InspectorDialog.h" />
+    <ClInclude Include="..\tools\radiant\LightDlg.h" />
+    <ClInclude Include="..\tools\radiant\MainFrm.h" />
+    <ClInclude Include="..\tools\radiant\MapInfo.h" />
+    <ClInclude Include="..\tools\radiant\MediaPreviewDlg.h" />
+    <ClInclude Include="..\tools\radiant\MRU.H" />
+    <ClInclude Include="..\tools\radiant\NewProjDlg.h" />
+    <ClInclude Include="..\tools\radiant\NewTexWnd.h" />
+    <ClInclude Include="..\tools\radiant\PARSE.H" />
+    <ClInclude Include="..\tools\radiant\PatchDensityDlg.h" />
+    <ClInclude Include="..\tools\radiant\PatchDialog.h" />
+    <ClInclude Include="..\tools\radiant\PMESH.H" />
+    <ClInclude Include="..\tools\radiant\PrefsDlg.h" />
+    <ClInclude Include="..\tools\radiant\PreviewDlg.h" />
+    <ClInclude Include="..\tools\radiant\PropertyList.h" />
+    <ClInclude Include="..\tools\radiant\QE3.H" />
+    <ClInclude Include="..\tools\radiant\QEDEFS.H" />
+    <ClInclude Include="..\tools\radiant\QERTYPES.H" />
+    <ClInclude Include="..\tools\radiant\Radiant.h" />
+    <ClInclude Include="..\tools\radiant\RotateDlg.h" />
+    <ClInclude Include="..\tools\radiant\ScaleDialog.h" />
+    <ClInclude Include="..\tools\radiant\SELECT.H" />
+    <ClInclude Include="..\tools\radiant\splines.h" />
+    <ClInclude Include="..\tools\radiant\SurfaceDlg.h" />
+    <ClInclude Include="..\tools\radiant\TabsDlg.h" />
+    <ClInclude Include="..\tools\radiant\TearoffContainerWindow.h" />
+    <ClInclude Include="..\tools\radiant\TextureBar.h" />
+    <ClInclude Include="..\tools\radiant\Textures.h" />
+    <ClInclude Include="..\tools\radiant\Undo.h" />
+    <ClInclude Include="..\tools\radiant\WaitDlg.h" />
+    <ClInclude Include="..\tools\radiant\WaveOpen.h" />
+    <ClInclude Include="..\tools\radiant\XYWnd.h" />
+    <ClInclude Include="..\tools\radiant\Z.H" />
+    <ClInclude Include="..\tools\radiant\ZClip.h" />
+    <ClInclude Include="..\tools\radiant\ZWnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\tools\comafx\riched20.tlh" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BE5E1508-5329-4D92-A072-3AB109F29779}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>WorldStudio</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>ID_WOLRDSTUDIO;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <IgnoreSpecificDefaultLibraries>nafxcwd.lib</IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

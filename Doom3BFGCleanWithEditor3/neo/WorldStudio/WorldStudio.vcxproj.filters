@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Radiant">
+      <UniqueIdentifier>{ee0080e9-4286-48fa-b176-367b52d5bbf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{eddbaf97-c808-45dd-87db-c593da12a397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{c5604f6c-e200-44ed-92a8-a65db0c0a231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\proptree">
+      <UniqueIdentifier>{f1d2a8e3-1517-4532-bbb1-e1819e383caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="comafx">
+      <UniqueIdentifier>{ecbb58a8-9c9a-4346-a74b-bd37719fab96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\tools\radiant\autocaulk.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\CameraTargetDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\CamWnd.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\CapDialog.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\cmdlib.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\CommandsDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\CommentsDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\ConsoleDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\CSG.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\CurveDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\DialogInfo.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\DialogTextures.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\DialogThick.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\DlgCamera.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\DlgEvent.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\DRAG.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\ECLASS.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\EditorBrush.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\EditorBrushPrimit.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\EditorEntity.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\EditorMap.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\EditViewDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\EntityDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\EntityListDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\EntKeyFindReplace.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\FindTextureDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\GetString.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\GLWidget.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\InspectorDialog.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\LightDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\MainFrm.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\MapInfo.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\MediaPreviewDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\MRU.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\NewProjDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\NewTexWnd.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\PARSE.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\PatchDensityDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\PatchDialog.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\PMESH.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\PointFile.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\PrefsDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\PreviewDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\PropertyList.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\QE3.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\Radiant.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\RotateDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\ScaleDialog.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\SELECT.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\splines.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\SurfaceDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\TabsDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\TearoffContainerWindow.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\TextureBar.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\Undo.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\VERTSEL.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\WaitDlg.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\WaveOpen.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\WIN_DLG.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\WIN_QE3.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\XYWnd.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\Z.CPP">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\ZClip.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\radiant\ZWnd.cpp">
+      <Filter>Radiant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\idlib\precompiled.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\AlphaPopup.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\ColorButton.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\MaskEdit.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\OpenFileDialog.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropertyGrid.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\RegistryOptions.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\RollupPanel.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\SpinButton.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTree.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeInfo.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItem.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemButton.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemCheck.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemColor.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemCombo.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemEdit.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemEditButton.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemFileEdit.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemStatic.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeList.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeView.cpp">
+      <Filter>common\proptree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\CDIB.cpp">
+      <Filter>comafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\CPathTreeCtrl.cpp">
+      <Filter>comafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\CSyntaxRichEditCtrl.cpp">
+      <Filter>comafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\DialogColorPicker.cpp">
+      <Filter>comafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\DialogGoToLine.cpp">
+      <Filter>comafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\DialogName.cpp">
+      <Filter>comafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\StdAfx.cpp">
+      <Filter>comafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\comafx\VectorCtl.cpp">
+      <Filter>comafx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\tools\radiant\autocaulk.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\CameraTargetDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\CamWnd.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\CapDialog.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\cmdlib.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\CommandsDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\CommentsDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\ConsoleDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\CurveDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\DialogInfo.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\DialogTextures.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\DialogThick.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\DlgCamera.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\DlgEvent.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\EditorBrush.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\EditorEntity.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\EditorMap.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\EditViewDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\EntityDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\EntityListDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\EntKeyFindReplace.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\FindTextureDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\GetString.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\GLWidget.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\InspectorDialog.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\LightDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\MainFrm.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\MapInfo.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\MediaPreviewDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\MRU.H">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\NewProjDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\NewTexWnd.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\PARSE.H">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\PatchDensityDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\PatchDialog.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\PMESH.H">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\PrefsDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\PreviewDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\PropertyList.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\QE3.H">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\QEDEFS.H">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\QERTYPES.H">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\Radiant.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\RotateDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\ScaleDialog.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\SELECT.H">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\splines.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\SurfaceDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\TabsDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\TearoffContainerWindow.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\TextureBar.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\Textures.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\Undo.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\WaitDlg.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\WaveOpen.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\XYWnd.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\Z.H">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\ZClip.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\radiant\ZWnd.h">
+      <Filter>Radiant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\idlib\precompiled.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\Licensee.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTree.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeInfo.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItem.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemButton.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemCheck.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemColor.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemCombo.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemEdit.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemEditButton.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemFileEdit.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeItemStatic.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeList.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Doom3\neo\tools\common\PropTree\PropTreeView.h">
+      <Filter>common\proptree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\comafx\CDIB.h">
+      <Filter>comafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\comafx\CPathTreeCtrl.h">
+      <Filter>comafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\comafx\CSyntaxRichEditCtrl.h">
+      <Filter>comafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\comafx\DialogColorPicker.h">
+      <Filter>comafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\comafx\DialogGoToLine.h">
+      <Filter>comafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\comafx\DialogName.h">
+      <Filter>comafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\comafx\StdAfx.h">
+      <Filter>comafx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\comafx\VectorCtl.h">
+      <Filter>comafx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\tools\comafx\riched20.tlh">
+      <Filter>comafx</Filter>
+    </None>
+  </ItemGroup>
+</Project>
